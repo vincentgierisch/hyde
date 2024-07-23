@@ -1,0 +1,9 @@
+[project]
+name = "Hyde"
+version = "0.0.1"
+description = "This package should replace jekyll. It parses mardown files and builds html files out of it"
+authors = [{name = "Vincent Gierisch", email = "me@vincentgierisch.de"}]
+dependencies = []
+
+[project.scripts]
+hyde = "src.hyde.main:main_cli"
